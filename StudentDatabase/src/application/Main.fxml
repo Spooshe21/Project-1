@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <BorderPane fx:id="loginForm" prefHeight="544.0" prefWidth="678.0" visible="false">
+         <left>
+            <AnchorPane prefHeight="578.0" prefWidth="358.0" styleClass="other-form" stylesheets="@application.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="28.0" layoutY="261.0" text="Student Management System" textFill="#d3c3c9">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="createAccountButton" layoutX="60.0" layoutY="514.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="49.0" prefWidth="235.0" styleClass="create-btn" stylesheets="@application.css" text="Create Account" />
+                  <Label layoutX="107.0" layoutY="467.0" text="Register Account" textFill="#d3c6c6">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="578.0" prefWidth="360.0" BorderPane.alignment="CENTER">
+               <children>
+                  <FontAwesomeIcon fill="#900909" glyphName="USER" layoutX="145.0" layoutY="96.0" size="5em" />
+                  <Label layoutX="58.0" layoutY="105.0" styleClass="white-form" stylesheets="@application.css" text="LOGIN USER FORM" textFill="#722323">
+                     <font>
+                        <Font name="Constantia Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="USER" layoutX="37.0" layoutY="231.0" size="2em" />
+                  <FontAwesomeIcon />
+                  <FontAwesomeIcon glyphName="LOCK" layoutX="39.0" layoutY="287.0" size="2em" />
+                  <TextField fx:id="usernameField" layoutX="65.0" layoutY="201.0" onAction="#loginAccount" prefHeight="42.0" prefWidth="230.0" promptText="UserName" />
+                  <TextField fx:id="passwordField" layoutX="64.0" layoutY="259.0" onAction="#loginAccount" prefHeight="39.0" prefWidth="229.0" promptText="Password" />
+                  <Button fx:id="loginButton" layoutX="97.0" layoutY="376.0" mnemonicParsing="false" onAction="#loginAccount" prefHeight="54.0" prefWidth="163.0" text="Login" textFill="#b51b1b">
+                     <font>
+                        <Font name="Cooper Black" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+      <BorderPane fx:id="signupForm" layoutX="10.0" layoutY="10.0" prefHeight="544.0" prefWidth="678.0">
+         <left>
+            <AnchorPane prefHeight="578.0" prefWidth="358.0" styleClass="other-form" stylesheets="@application.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="28.0" layoutY="261.0" text="Student Management System" textFill="#d3c3c9">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="loginAccountButton" layoutX="60.0" layoutY="514.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="49.0" prefWidth="235.0" styleClass="create-btn" stylesheets="@application.css" text="Login Account" />
+                  <Label layoutX="71.0" layoutY="466.0" text="Already Have an Account" textFill="#d3c6c6">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="578.0" prefWidth="360.0" styleClass="white-form" stylesheets="@application.css" BorderPane.alignment="CENTER">
+               <children>
+                  <FontAwesomeIcon fill="#8f0a79" glyphName="USER_PLUS" layoutX="143.0" layoutY="95.0" size="5em" text="" />
+                  <Label layoutX="48.0" layoutY="105.0" styleClass="white-form" stylesheets="@application.css" text="REGISTER USER FORM" textFill="#900d78">
+                     <font>
+                        <Font name="Constantia Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="USER" layoutX="37.0" layoutY="231.0" size="2em" />
+                  <FontAwesomeIcon />
+                  <FontAwesomeIcon glyphName="LOCK" layoutX="39.0" layoutY="287.0" size="2em" />
+                  <TextField fx:id="signupUsernameField" layoutX="65.0" layoutY="201.0" prefHeight="42.0" prefWidth="230.0" promptText="UserName" />
+                  <TextField fx:id="signupPasswordField" layoutX="64.0" layoutY="259.0" prefHeight="39.0" prefWidth="229.0" promptText="Password" />
+                  <Button fx:id="signupButton" layoutX="97.0" layoutY="376.0" mnemonicParsing="false" onAction="#registerAccount" prefHeight="54.0" prefWidth="163.0" text="SignUp" textFill="#b21baa">
+                     <font>
+                        <Font name="Cooper Black" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</StackPane>

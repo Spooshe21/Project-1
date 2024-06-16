@@ -1,0 +1,76 @@
+.white-form {
+    -fx-background-color: #ffffff; /* Use full hex code for clarity */
+    -fx-background-radius: 8px;
+    -fx-padding: 10px; /* Add padding for better spacing */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.5, 0, 0); /* Add shadow for depth */
+}
+
+.border {
+    -fx-border-color: linear-gradient(to bottom right, #b54a4a, #722323);
+    -fx-border-width: 2px; /* Slightly increase border width for emphasis */
+    -fx-border-radius: 8px;
+    -fx-padding: 5px; /* Ensure padding to show the border effect */
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Add semi-transparent background for effect */
+}
+
+.btn {
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0, #5a3375);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0.5, 0, 0);
+    
+}
+
+.btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #ff6699, #ff3366);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 8, 0.7, 0, 0);
+   
+}
+.table-view {
+    -fx-padding: 10px; /* Adding some padding for better spacing */
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); /* Subtle background gradient */
+    -fx-border-image-source: linear-gradient(to bottom right, #9e20a0, #5a3375); /* Border gradient */
+    -fx-border-image-slice: 1; /* Ensuring the border gradient scales properly */
+    -fx-border-radius: 8px; /* Rounded corners */
+    -fx-border-width: 2px; /* Border width */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0.5, 0, 0); /* Adding a drop shadow effect */
+    
+}
+/* Add creativity to the table view and column header */
+
+/* Enhance table view hover effect */
+.table-view:hover {
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)); /* More pronounced gradient on hover */
+    
+}
+
+/* Style column headers */
+.table-view .column-header {
+    -fx-alignment: CENTER;
+    -fx-background-color: linear-gradient(to bottom, #9e20a0, #5a3375); /* Gradient background for column headers */
+    -fx-background-radius:8px 8px 0 0;
+    -fx-text-fill: #fff; /* White text color for better contrast */
+    -fx-font-weight: bold; /* Bold font weight for emphasis */
+   
+}
+
+/* Style filters */
+.filter {
+    -fx-background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for filters */
+    -fx-size:50px;
+    -fx-border-radius: 20px; /* Rounded corners for filters */
+    -fx-padding: 10px; /* Add padding for better visual appeal */
+    -fx-font-size: 16px; /* Increase font size for better readability */
+    -fx-text-fill: #333; /* Darker text color for better contrast */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10,0,2,2 ); /* Add a subtle drop shadow for depth */
+}
+.table-view .column-header .label{
+	-fx-text-fill:#fff;
+	-fx-font-family:Roboto Slab;
+}
+
+

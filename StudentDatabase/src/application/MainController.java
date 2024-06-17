@@ -6,11 +6,10 @@
  *---------------------------------------------------------------------------
  *   Purpose:  MainController.java file
  *   Project:  Student Management System
- *   Platform: Cloud Service Provider Independent
- *   Compiler: JavaSE-11
- *   IDE:	   Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)
- *			   Version: 2021-09 (4.21.0)
- *             Build id: 20210910-1417
+ *   Platform: JavaSE-22.0.1
+ *   IDE:      Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)
+ *	       Version: 2024-03 (4.31.0)
+ *             Build id: 20240307-1437
  ********************************************************************************************/
 
 /**********************************************************************************************

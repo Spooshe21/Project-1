@@ -37,6 +37,8 @@ The Student Management System is a JavaFX-based application designed to manage s
 - Eclipse IDE for Enterprise Java and Web Developers
 - PostgreSQL Database
 - JavaFX SceneBuilder
+- Apache POI jar files.
+- Postgresql-42.6.0 jar file.
 
 ### Steps
 
@@ -44,12 +46,12 @@ The Student Management System is a JavaFX-based application designed to manage s
  
    git clone <C:\Users\DELL\git\repository18\.git>
 
-   # Open the project in Eclipse IDE:
+2. **Open the project in Eclipse IDE:**
 
-1. Select `File` > `Open Projects from File System...`
-2. Navigate to the cloned repository and open it.
+   - Select `File` > `Open Projects from File System...`
+   - Navigate to the cloned repository and open it.
 
-# Configure the database:
+### Configure the database
 
 1. **Create a PostgreSQL database:**
    - Ensure PostgreSQL is installed.

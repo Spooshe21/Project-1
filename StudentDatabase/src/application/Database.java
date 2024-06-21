@@ -6,7 +6,8 @@
  *---------------------------------------------------------------------------
  *   Purpose:  Database.java file
  *   Project:  Student Management System
- *   Platform: JavaSE-22.0.1
+ *   Platform: Cross-platform (Windows, macOS, Linux)
+ *   Compiler: JDK-22
  *   IDE:  	   Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)
  *	           Version: 2024-03 (4.31.0)
  *             Build id: 20240307-1437
